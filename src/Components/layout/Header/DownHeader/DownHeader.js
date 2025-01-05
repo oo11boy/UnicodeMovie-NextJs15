@@ -1,7 +1,24 @@
-import React from 'react'
+"use client"
+import React from "react";
+import LargeMenu from "./LargeMenu/LargeMenu";
+import MobileMenu from "./MobileMenu/MobileMenu";
 
 export default function DownHeader() {
   return (
-    <div>DownHeader</div>
-  )
+    <div className="w-full bg-[#1d1d1ded] ">
+      <div className="global-w flex items-center justify-between">
+      <div className="flex lg:hidden">
+   
+      <MobileMenu />
+       </div>
+       <div className=" hidden lg:flex">
+       <LargeMenu/>
+       </div>
+      
+        <form action="">
+          <input type="text" placeholder="search..." />
+        </form>
+      </div>
+    </div>
+  );
 }
