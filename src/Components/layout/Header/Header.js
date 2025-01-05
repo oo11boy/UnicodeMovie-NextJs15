@@ -4,8 +4,9 @@ import DownHeader from './DownHeader/DownHeader'
 
 export default function Header() {
   return (
-   <div className='bg-[red] global-w '>
+   <div className='global-w'>
    <TopHeader/>
+
    <DownHeader/>
    </div>
   )
