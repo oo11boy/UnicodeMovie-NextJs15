@@ -8,6 +8,8 @@ export default function LargeMenu() {
   const [activeSubmenu, setActiveSubmenu] = useState(null);
 
   return (
+    
+           <div className=" hidden lg:flex">
     <ul onMouseLeave={() => setActiveSubmenu(null)} className="menuNav">
       {MenuItems.map((item, index) =>
         item.submenu ? (
@@ -32,5 +34,7 @@ export default function LargeMenu() {
         )
       )}
     </ul>
+    
+          </div>
   );
 }

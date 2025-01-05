@@ -12,7 +12,7 @@ export default function MobileMenu() {
   };
 
   return (
-    <>
+    <div className="flex lg:hidden">
       <div
         className="text-white text-4xl bg-black p-2 rounded-md cursor-pointer"
         onClick={toggleMenu}
@@ -28,6 +28,6 @@ export default function MobileMenu() {
         <TopMobileMenu toggleMenu={toggleMenu} />
         <DownMenuMobile />
       </div>
-    </>
+      </div>
   );
 }
