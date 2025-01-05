@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
-import LargeMenu from "./LargeMenu/LargeMenu";
-import MobileMenu from "./MobileMenu/MobileMenu";
+import LargeMenu from "../../../SiteMenu/LargeMenu/LargeMenu";
+import MobileMenu from "../../../SiteMenu/MobileMenu/MobileMenu";
 
 export default function DownHeader() {
   return (
