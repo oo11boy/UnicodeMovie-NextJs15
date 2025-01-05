@@ -21,7 +21,7 @@ export default function MobileMenu() {
       </div>
 
       <div
-        className={`bg-black absolute top-0 left-0 w-3/4 h-[100vh] transform ${
+        className={`bg-black absolute z-[999] top-0 left-0 w-full sm:w-3/4 h-[100vh] transform ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300`}
       >

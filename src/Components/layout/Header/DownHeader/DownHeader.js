@@ -2,6 +2,7 @@
 import React from "react";
 import LargeMenu from "../../../SiteMenu/LargeMenu/LargeMenu";
 import MobileMenu from "../../../SiteMenu/MobileMenu/MobileMenu";
+import SearchInput from "./SearchInput";
 
 export default function DownHeader() {
   return (
@@ -9,10 +10,8 @@ export default function DownHeader() {
       <div className="global-w flex items-center justify-between">
         <MobileMenu />
         <LargeMenu />
-
-        <form action="">
-          <input type="text" placeholder="search..." />
-        </form>
+<SearchInput/>
+        
       </div>
     </div>
   );

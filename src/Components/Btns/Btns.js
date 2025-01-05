@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
 export default function SignBtn({ text, icon }) {
   return (
-    <button className="bg-[#484848] flex items-center justify-center space-x-2 text-white hover:bg-[orange] py-2 px-4 rounded-lg">
+    <button className="bg-[#484848] focus:outline-none transition-all ease-linear flex items-center justify-center space-x-2 text-white hover:bg-[orange] py-2 px-4 rounded-lg">
       <span>{icon}</span>
 
       <span>{text}</span>
