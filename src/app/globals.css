@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.global-w {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+@media (max-width: 1100px) {
+  .global-w {
+    width: 95%;
+ 
+  }
+}
